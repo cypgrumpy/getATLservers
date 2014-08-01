@@ -1,6 +1,5 @@
 <?php
 function getPacks() {
-  $con=mysqli_connect("192.95.29.92","atlservers","deQdwTvzbw6AZruR","getatlservers");
   if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
